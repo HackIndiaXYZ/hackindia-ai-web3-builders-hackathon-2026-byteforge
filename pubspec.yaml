@@ -1,0 +1,33 @@
+ name: apkisuraksha
+ description: "A new Flutter project."
+ publish_to: 'none'
+
+ version: 1.0.0+1
+
+ environment:
+  sdk: ^3.9.2
+
+ dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.5.6
+  lottie: ^3.1.0
+  geolocator: ^14.0.2
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+
+ dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1   # ✅ Updated version
+
+ flutter_icons:
+  android: true
+  ios: true
+  # image_path: "assets/img/logo2.png"
+  # adaptive_icon_background: "#ffffff"   # optional background color
+  # adaptive_icon_foreground: "assets/img/logo2.png"
+
+ flutter:
+  uses-material-design: true
